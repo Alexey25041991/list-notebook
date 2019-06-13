@@ -1,8 +1,8 @@
 import React from 'react';
 
-import TodoListItem from './todo-list-item';
+import TodoListItem from './todoListItem/index.js';
 
-import './todo-list.css';
+import './style.css';
 
 const TodoList = ({ todos }) => {
   const elements = todos.map(item => {

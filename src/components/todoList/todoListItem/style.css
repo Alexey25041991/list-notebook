@@ -5,6 +5,7 @@
 .todo-list-item button {
   width: 35px;
   margin: 3px;
+  float: right;
 }
 
 .todo-list-item-label {
@@ -20,5 +21,5 @@
 
 .todo-list-item.important .todo-list-item-label{
   font-weight: bold;
-  color: xteelblue;
+  color: blue;
 }
